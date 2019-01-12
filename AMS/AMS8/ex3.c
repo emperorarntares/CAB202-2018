@@ -20,10 +20,10 @@ void setup() {
 	//	(b) Initialise the LCD display using the default contrast setting.
 	lcd_init(LCD_DEFAULT_CONTRAST);
 	//	(c) Use one of the functions declared in "graphics.h" to display 
-	//	your student number, "n9940600", using the background colour, 
+	//	your student number, "n9934731", using the background colour, 
 	//	positioning the left edge of the text at 16 and the nominal top 
 	//	of the text at 19.
-	draw_string(16, 19, "n9940600", BG_COLOUR);
+	draw_string(16, 19, "n9934731", BG_COLOUR);
 	
 	//	(d) Use one of the functions declared in "graphics.h" to copy 
 	//	the contents of the screen buffer to the LCD.
