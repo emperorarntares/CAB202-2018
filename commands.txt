@@ -1,0 +1,26 @@
+echo ${path} - all files in c:/ drive
+
+pwd - cygwin's current directory
+
+desktop/surfacepro directory - cd c:/cab202
+
+cd [filename] - opens folder in path directory
+
+cd .../[Another foldername] - changes folder directory
+
+ls -ltr - file search
+
+cd [specific foldername] - looks up folder in directory
+
+gcc [full filename] -o [filename] - compile .c file
+gcc [full filename] -std=gnu99 -Wall -Werror -g -o [filename] - compile .c file *turn on all warnings
+
+./[filename] - run the file
+
+make - building library
+
+gcc [full filename] -o [filename] -Wall -I../[foldername] -L../[foldername] -lzdk -lncurses 
+when compiling it finds stuff in these folders
+
+gcc [filename].c -o [filename] -Ic:/cab202/ZDK -Lc:/cab202/ZDK -std=gnu99 -lzdk -lncurses -lm -g
+ZDK game build
