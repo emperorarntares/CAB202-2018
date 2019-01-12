@@ -26,12 +26,12 @@ void setup(void) {
 	TIMSK3 = 1;
 	//	(c) Turn on interrupts.
 	sei();
-	//	(d) Display your student number, "n9940600", with nominal top-left
+	//	(d) Display your student number, "n9934731", with nominal top-left
 	//	corner at screen location (13,25). Left-aligned 10
 	//	pixels below that, display the pre-scale factor that corresponds
 	//	to a timer overflow period of approximately 0.5 
 	//	seconds.
-	draw_string(13, 25, "n9940600", FG_COLOUR);
+	draw_string(13, 25, "n9934731", FG_COLOUR);
 	draw_string(13, 35, "64", FG_COLOUR);
 	// Keep the next instruction intact.
 	show_screen();
