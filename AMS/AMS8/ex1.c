@@ -11,7 +11,7 @@ void setup( void ) {
 	//	(a) Initialise the LCD display using the default contrast setting
 	lcd_init(0b00111111); // values between 0 and 127
 	//	(b) Use one of the functions declared in "graphics.h" to display 
-	//	your student number, n9940600, using the background colour, 
+	//	your student number, n9934731, using the background colour, 
 	//	positioning the left edge of the image at 14 and the nominal top 
 	//	of the text at 1.
 	char * student_number = "n9934731";
