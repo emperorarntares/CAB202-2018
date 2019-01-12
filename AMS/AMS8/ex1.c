@@ -14,7 +14,7 @@ void setup( void ) {
 	//	your student number, n9940600, using the background colour, 
 	//	positioning the left edge of the image at 14 and the nominal top 
 	//	of the text at 1.
-	char * student_number = "n9940600";
+	char * student_number = "n9934731";
 	draw_string(14, 1, student_number, BG_COLOUR);
 	//	(c) Use one of the functions declared in "graphics.h" to copy the contents 
 	//	of the screen buffer to the LCD.
