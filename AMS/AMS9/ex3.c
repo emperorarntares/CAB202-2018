@@ -25,9 +25,9 @@ void setup(void) {
 	sei();
 	//	(d) Enable the joystick left switch for digital input.
 	CLEAR_BIT(DDRB, 1);
-	//	(e) Display your student number, "n9940600", with nominal
+	//	(e) Display your student number, "n9934731", with nominal
 	//	top-left corner at screen location (2,30).
-	draw_string(2, 30, "n9940600", FG_COLOUR);
+	draw_string(2, 30, "n9934731", FG_COLOUR);
 	// Keep the next instruction intact.
 	show_screen();
 }
